@@ -1,3 +1,10 @@
+ul {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
 .profile {
   background-color: white;
   width: 250px;
@@ -40,10 +47,6 @@
 }
 
 .stats {
-  list-style: none;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
   display: flex;
   justify-content: space-around;
 
