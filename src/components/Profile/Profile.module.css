@@ -9,7 +9,7 @@ ul {
   background-color: white;
   width: 250px;
   border-radius: 6px;
-  box-shadow: 0px 1px 6px rgba(27, 27, 36, 0.08);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .description {
