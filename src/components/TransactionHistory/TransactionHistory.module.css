@@ -1,0 +1,40 @@
+table {
+  border-collapse: collapse;
+  box-shadow: 0px 1px 6px 1px rgba(0, 0, 0, 0.2);
+}
+
+th {
+  text-transform: uppercase;
+  background-color: #5cbbd2;
+  color: white;
+  width: 290px;
+  height: 48px;
+  border: 1px solid #c4c4c4;
+}
+
+th:not(:last-child) {
+  border-right: 1px solid white;
+}
+
+td:not(:last-child) {
+  border-right: 1px solid #c4c4c4;
+}
+
+td {
+  text-align: center;
+  color: #5e5e5e;
+  height: 50px;
+}
+
+td:first-child {
+  text-transform: capitalize;
+  text-align: left;
+  text-indent: 44%;
+}
+
+tr {
+  background-color: white;
+}
+tr:nth-child(even) {
+  background-color: #edf1f4;
+}
