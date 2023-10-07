@@ -1,3 +1,1 @@
-import FriendListItem from './FriendListItem';
-
-export default FriendListItem;
+export { FriendListItem } from './FriendListItem';

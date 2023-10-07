@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
-import FriendListItem from 'components/FriendListItem';
+import { FriendListItem } from 'components/FriendListItem';
 
 const FriendList = ({ friends }) => {
   return (
@@ -29,4 +28,4 @@ FriendList.propTypes = {
   ).isRequired,
 };
 
-export default FriendList;
+export { FriendList };

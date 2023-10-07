@@ -86,4 +86,4 @@ Statistics.propTypes = {
   ).isRequired,
 };
 
-export default Statistics;
+export { Statistics };
