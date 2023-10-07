@@ -8,14 +8,13 @@ const Section = styled.section`
   border-radius: 6px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
   min-width: 375px;
-  padding-top: 30px;
 `;
 
 const Title = styled.h2`
   text-transform: uppercase;
   color: #50565f;
   text-align: center;
-  margin-top: 0;
+  margin-top: 30px;
   margin-bottom: 30px;
 `;
 
@@ -58,11 +57,10 @@ const Span = styled.span`
   }
 `;
 
-const Statistics = ({ title = 'Upload stats', stats }) => {
+const Statistics = ({ title = '', stats }) => {
   return (
     <Section>
-      <Title>{title}</Title>
-
+      {title.length > 0 && <Title>{title}</Title>}
       <List className="stat-list">
         {stats.map(({ id, label, percentage }) => (
           <ListItem className="item" key={id}>
