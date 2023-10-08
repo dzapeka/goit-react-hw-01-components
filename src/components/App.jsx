@@ -11,7 +11,7 @@ export const App = () => {
   return (
     <>
       <section className="task-container">
-        <h1>1 - Social network profile</h1>
+        <h2>1 - Social network profile</h2>
         <Profile
           username={user.username}
           tag={user.tag}
@@ -21,15 +21,15 @@ export const App = () => {
         />
       </section>
       <section className="task-container">
-        <h1>2- Statistics Section</h1>
+        <h2>2- Statistics Section</h2>
         <Statistics title="Upload stats" stats={data} />
       </section>
       <section className="task-container">
-        <h1>3 - Friends list</h1>
+        <h2>3 - Friends list</h2>
         <FriendList friends={friends} />
       </section>
       <section className="task-container">
-        <h1>4 - Transaction History</h1>
+        <h2>4 - Transaction History</h2>
         <TransactionHistory items={transactions} />
       </section>
     </>

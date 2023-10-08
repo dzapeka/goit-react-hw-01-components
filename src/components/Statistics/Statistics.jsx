@@ -57,10 +57,10 @@ const Span = styled.span`
   }
 `;
 
-const Statistics = ({ title = '', stats }) => {
+const Statistics = ({ title, stats }) => {
   return (
     <Section>
-      {title.length > 0 && <Title>{title}</Title>}
+      {title && <Title>{title}</Title>}
       <List className="stat-list">
         {stats.map(({ id, label, percentage }) => (
           <ListItem className="item" key={id}>
